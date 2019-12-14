@@ -1,0 +1,61 @@
+{
+  "name": "superdonut",
+  "version": "0.0.1-development",
+  "description": "Superdonut CLI",
+  "private": false,
+  "keywords": [
+    "react",
+    "cli-react-app",
+    "superdonut",
+    "react-donuts"
+  ],
+  "bin": {
+    "superdonut": "bin/superdonut"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:heybrunoandrade/superdonut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heybrunoandrade/superdonut/issues"
+  },
+  "scripts": {
+    "format": "prettier --write **/*.{js,json} && standard --fix",
+    "lint": "standard",
+    "test": "jest",
+    "watch": "jest --watch",
+    "snapupdate": "jest --updateSnapshot",
+    "coverage": "jest --coverage"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "readme.md",
+    "docs",
+    "bin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "gluegun": "latest"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "prettier": "^1.12.1",
+    "jest": "^24.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
