@@ -12,13 +12,13 @@ A CLI for Donut's Template.
 
 ```bash
 // Configure Eslint
- superdonuts configure:eslint
+ superdonut configure:eslint
 
 // Create Component
- superdonuts generate:component MyComponent
+ superdonut generate:component MyComponent
 
 // Create Page
- superdonuts generate:page Main
+ superdonut generate:page Main
 
 ```
 
