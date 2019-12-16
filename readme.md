@@ -4,15 +4,21 @@ A CLI for Donut's Template.
 
 [Learn More](https://github.com/heybrunoandrade/react-donuts-template)
 
+## Install
+
+```bash
+ npm i -g superdonut
+```
+
 ```bash
 // Configure Eslint
- yarn run superdonuts configure:eslint
+ superdonuts configure:eslint
 
 // Create Component
- yarn run superdonuts generate:component MyComponent
+ superdonuts generate:component MyComponent
 
 // Create Page
- yarn run superdonuts generate:page Main
+ superdonuts generate:page Main
 
 ```
 
