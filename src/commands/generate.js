@@ -1,22 +1,16 @@
-
 module.exports = {
   name: 'generate',
   alias: ['g'],
   run: async toolbox => {
     const {
-      parameters,
-      template: { generate },
       print: { info }
     } = toolbox
 
-    const name = parameters.first
-
-    await generate({
-      template: 'model.js.ejs',
-      target: `models/${name}-model.js`,
-      props: { name }
-    })
-
-    info(`Generated file at models/${name}-model.js`)
+    info(`Use commands:`)
+    info(`🍩  -------------------- 🍩 `)
+    info(`👉  superdonut g:component`)
+    info(`👉  superdonut g:page`)
+    info(`👉  superdonut g:duck`)
+    info(`👉  superdonut g:saga`)
   }
 }
