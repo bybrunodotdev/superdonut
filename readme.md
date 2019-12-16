@@ -1,25 +1,27 @@
 # superdonut CLI
 
-A CLI for superdonut.
+A CLI for Donut's Template.
 
-## Customizing your CLI
+[Learn More](https://github.com/heybrunoandrade/react-donuts-template)
 
-Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
+```bash
+// Configure Eslint
+ yarn run superdonuts configure:eslint
 
-## Publishing to NPM
+// Create Component
+ yarn run superdonuts generate:component MyComponent
 
-To package your CLI up for NPM, do this:
+// Create Page
+ yarn run superdonuts generate:page Main
 
-```shell
-$ npm login
-$ npm whoami
-$ npm lint
-$ npm test
-(if typescript, run `npm run build` here)
-$ npm publish
 ```
 
-# License
+## Coming soon
 
-MIT - see LICENSE
+- Configure redux, redux saga and redux persist.
 
+- Generate redux and sagas files
+
+- Set up firebase
+
+- Advanced Route Setup
